@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SerializeBinaryTreeTest {
+class SerializeBinaryTreeDFSTest {
     @Test
     void test01() {
         SerializeBinaryTreeBreadthFirst codec = new SerializeBinaryTreeBreadthFirst();
